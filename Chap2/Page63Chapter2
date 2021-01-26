@@ -1,0 +1,6 @@
+# 2-1 Simple Message:
+message = ' Hello world'
+print(message.title())
+# 2-2 Simple Message:
+message = ' Hello world, lets program!'
+print(message.title())
