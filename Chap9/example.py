@@ -1,5 +1,5 @@
 class Dog:
-def__init__(self, name, age):
+def __init__(self, name, age):
 """Initialize name and age attributes."""
 	self.name = name
 	self.age = age

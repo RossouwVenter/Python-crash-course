@@ -11,3 +11,22 @@ def make_album(artistName,artistTitle):
 	return album
 album = make_album('jimi','singer')
 print(album)
+
+# 8-8 User Albums:
+print('\n')
+def make_album(artistName,artistTitle):
+	album ={'Name':artistName,'Title': artistTitle}
+	return album
+album = make_album('jimi','singer')
+print(album)
+print(album)
+
+while True:
+	print('Enter q to quit')
+	artistName = input('Enter an artists name:')
+	artistTitle = input('Enter an album name:')
+
+	if (artistName or artistTitle == 'q'):
+		break
+	else:
+		album = make_album(artistName,artistTitle)
